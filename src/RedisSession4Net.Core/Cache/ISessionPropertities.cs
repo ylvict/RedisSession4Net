@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RedisSession4Net.Core.Cache
+﻿namespace RedisSession4Net.Core.Cache
 {
     public interface ISessionPropertities
     {
