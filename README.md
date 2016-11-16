@@ -5,9 +5,9 @@ A demo for use redis as Session for ASP.NET web application
 ## Installation
 
 ## Dependence
-    Require "Microsoft.AspNet.Mvc" by (Install-Package Microsoft.AspNet.Mvc)
-    Require "Microsoft.AspNet.WebApi" by (Install-Package Microsoft.AspNet.WebApi)
-    Require "ServiceStack.Redis" by (Install-Package ServiceStack.Redis)
+* Require "Microsoft.AspNet.Mvc" by (```Install-Package Microsoft.AspNet.Mvc```)
+* Require "Microsoft.AspNet.WebApi" by (```Install-Package Microsoft.AspNet.WebApi```)
+* Require "ServiceStack.Redis" by (```Install-Package ServiceStack.Redis```)
 
 ## Usage
 1.  Add "RedisSession4Net.Core.dll" reference to your ASP.NET web project.
