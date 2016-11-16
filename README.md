@@ -26,7 +26,7 @@ A demo for use redis as Session for ASP.NET web application
     LocalCacheTime="1800" />
 ```
 
-	* Note: if your redis service require password authentication, just set ```ReadWriteServerStr``` \ ```ReadOnlyServerStr``` as  ```password@host:6379```.
+* Note: if your redis service require password authentication, just set ```ReadWriteServerStr``` \ ```ReadOnlyServerStr``` as  ```password@host:6379```.
   
 4.	Add a ```SessionModel``` class as [demo](demo/RedisSession4Net.Web/Models/SessionModel.cs).
 5.	Make your WebApi Controller inherit ```RedisSession4Net.Core.Components.BaseApiController```, and use ```SessionModel```(in Step:#4) as generic base type.
